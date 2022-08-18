@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=1024">
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+      }
+
+      html {
+        box-sizing: border-box;
+      }
+
+      *,
+      *:before,
+      *:after {
+        box-sizing: inherit;
+      }
+
+      .column {
+        float: left;
+        width: 33.3%;
+        margin-bottom: 16px;
+        padding: 0 8px;
+      }
+
+
+      .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        margin: 8px;
+      }
+
+      .about-section {
+        padding: 50px;
+        text-align: center;
+        background-color: #474e5d;
+        color: white;
+      }
+      .container {
+        padding: 0 16px;
+      }
+
+      .container::after,
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+
+      .title {
+        color: grey;
+      }
+
+      .button {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 10px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+      }
+
+      .button:hover {
+        background-color: #555;
+      }
+
+      @media screen and (max-width: 650px) {
+        .column {
+          width: 100%;
+          display: block;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="about-section">
+      <h1>GAMEZONE SHOP</h1>
+      <h2><p>
+        With gamezone store enjoy exciting subscriptions and offers across
+        categories like entertainment , food , travel , news , etc.
+      </p>
+      <p></h2>
+        Get incredible offers on Netflix premium , Disney+ Hotstar , Amazon
+        prime and many more only with Gamezone shop
+      </p>
+    </div>
+
+    <h2 style="text-align: center">OUR TEAM</h2>
+    <div class="row">
+      <div class="column">
+        <div class="card">
+          <img
+            src="https://i.pinimg.com/564x/37/80/3c/37803c3ac99d0fbe18025a118bf0a475.jpg"
+            alt="Telestore"
+            style="width: 100%"
+          />
+          <div class="container">
+            <h2>Tele store</h2>
+            <p class="title">@Gamezone_store</p>
+            <a href="https://t.me/gamezone_store">
+              <p><button class="button">Subscribe</button></p></a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <img
+            src="https://i.pinimg.com/564x/50/50/b1/5050b105d88f9ab58c9b5f18a0959adc.jpg"
+            alt="Mike"
+            style="width: 100%"
+          />
+          <div class="container">
+            <h2>Whatsapp us</h2>
+            <p class="title">7760698775 | 8073259915</p>
+            <a href="https://bit.ly/gamezonewa">
+              <p><button class="button">Contact</button></p></a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <img
+            src="https://i.pinimg.com/564x/3c/4c/0a/3c4c0af0861c84b58330d43ee898dc47.jpg"
+            alt="Officialstore"
+            style="width: 100%"
+          />
+          <div class="container">
+            <h2>Official website</h2>
+            <p class="title">Gamezone store</p>
+            <a href="https://bit.ly/gamezonestore">
+              <p>
+                <button class="button">Visit store</button>
+              </p></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <br><br>
+    <h2 style="text-align: center">CLICK TO PAY</h2>
+    <div class="row"></div>
+    <div class="column">
+        <a href="https://paytm.me/rbkH-rV">
+          <img
+            src="https://i.pinimg.com/564x/f7/cf/b9/f7cfb99dc940d107eb180465312a7ee4.jpg"
+            alt="paytm"
+            style="width: 50%; margin-left: 85%;margin-top: 10%; "
+        /></a>
+      </div>
+      <div class="column">
+        <a href="https://phon.pe/g78fi53i">
+          <img
+            src="https://i.pinimg.com/564x/2a/cf/b6/2acfb6fb41f7fcb82c3230afdecff714.jpg"
+            alt="phonepe"
+            style="width: 50%;margin-left: 25%; "
+        /></a>
+      </div>
+      <div class="column">
+          <img
+            src="https://i.pinimg.com/564x/05/3c/59/053c59b7ba37051bc7886ec935f6da25.jpg" onclick="alert('UPI ID : Gamezoneshop@ybl')"            alt="gpay"
+            style="width: 70%;margin-top: 10%; nav-left: current; margin-left: -40%; "
+        />
+      </div>
+    </div>
+  </body>
+</html>
